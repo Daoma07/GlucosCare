@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GlucosCare</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="genero_items">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="daibete_items">
+        <item>Tipo 1</item>
+        <item>Tipo 2</item>
+    </string-array>
+</resources>
