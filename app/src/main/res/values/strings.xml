@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">GlucosCare</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Recordatorios</string>
+    <string name="title_notifications">Interesados</string>
     <string-array name="genero_items">
         <item>Hombre</item>
         <item>Mujer</item>
