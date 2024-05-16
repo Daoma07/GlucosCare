@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328003292587",
+    "project_id": "glucoscare",
+    "storage_bucket": "glucoscare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328003292587:android:ef8bf63410b8dea98a56ee",
+        "android_client_info": {
+          "package_name": "alameda.daniel.glucoscare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYUyNfK-3a02D2l5acMkLPS2kCxE-eCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

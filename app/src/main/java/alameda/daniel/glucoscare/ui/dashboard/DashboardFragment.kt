@@ -26,7 +26,7 @@ class DashboardFragment : Fragment() {
         val dashboardViewModel =
             ViewModelProvider(this).get(DashboardViewModel::class.java)
 
-        _binding =FragmentRecordatoriosBinding.inflate(inflater, container, false)
+        _binding = FragmentRecordatoriosBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root
