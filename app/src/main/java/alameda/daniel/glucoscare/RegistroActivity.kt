@@ -13,6 +13,10 @@ import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 import com.google.firebase.database.FirebaseDatabase
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9dafe3aa1d73b7f8be99da0c55f20c31c3acfa68
 
 class RegistroActivity : AppCompatActivity() {
     lateinit var genero: Spinner
@@ -169,5 +173,21 @@ class RegistroActivity : AppCompatActivity() {
                     ).show()
                 }
             }
+<<<<<<< HEAD
+=======
+    }
+
+    private fun navigateToEditProfile() {
+        val intent = Intent(this, EditProfileActivity::class.java).apply {
+            // Pass user data as extras
+            putExtra("nombre", nombreEditText.text.toString())
+            putExtra("edad", edadEditText.text.toString())
+            putExtra("telefono", telefonoEditText.text.toString())
+            putExtra("correo", correoEditText.text.toString())
+            putExtra("genero", generoSpinner.selectedItem.toString())
+            putExtra("tipoDiabetes", tipoDiabetesSpinner.selectedItem.toString())
+        }
+        startActivity(intent)
+>>>>>>> 9dafe3aa1d73b7f8be99da0c55f20c31c3acfa68
     }
 }

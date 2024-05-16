@@ -111,14 +111,23 @@ class HomeFragment : Fragment() {
                     }
                 }
 
+<<<<<<< HEAD
 
                 val series1 = cartesian.line(seriesData as List<DataEntry>?)
+=======
+                // Generar la gráfica una vez que se han obtenido los datos
+                val series1 = cartesian.line(seriesData as List<DataEntry>?) // Agrega tus datos aquí
+>>>>>>> 9dafe3aa1d73b7f8be99da0c55f20c31c3acfa68
                 series1.name("Niveles de Azucar")
                 anyChartView.setChart(cartesian)
             }
 
             override fun onCancelled(databaseError: DatabaseError) {
+<<<<<<< HEAD
 
+=======
+                // Manejar error de cancelación
+>>>>>>> 9dafe3aa1d73b7f8be99da0c55f20c31c3acfa68
             }
         })
     }
