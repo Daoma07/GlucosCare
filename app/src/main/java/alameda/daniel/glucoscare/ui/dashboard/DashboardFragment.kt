@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import alameda.daniel.glucoscare.databinding.FragmentInteresadosBinding
+//import alameda.daniel.glucoscare.databinding.FragmentInteresadosBinding
 import alameda.daniel.glucoscare.databinding.FragmentRecordatoriosBinding
 
 class DashboardFragment : Fragment() {
