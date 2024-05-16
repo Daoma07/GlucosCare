@@ -96,7 +96,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_contrasenia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_contrasenia_conf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

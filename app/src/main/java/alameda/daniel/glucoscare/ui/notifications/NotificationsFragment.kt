@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import alameda.daniel.glucoscare.databinding.FragmentInteresadosBinding
+//import alameda.daniel.glucoscare.databinding.FragmentInteresadosBinding
+import alameda.daniel.glucoscare.databinding.ActivityRegistroAlimentosBinding
 
 class NotificationsFragment : Fragment() {
 
-    private var _binding:FragmentInteresadosBinding? = null
+    private var _binding:ActivityRegistroAlimentosBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +26,7 @@ class NotificationsFragment : Fragment() {
         val notificationsViewModel =
             ViewModelProvider(this).get(NotificationsViewModel::class.java)
 
-        _binding = FragmentInteresadosBinding.inflate(inflater, container, false)
+        _binding = ActivityRegistroAlimentosBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root
