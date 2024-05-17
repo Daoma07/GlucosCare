@@ -18,7 +18,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_edad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         android:textAlignment="center"/>
 
     <LinearLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -52,7 +52,7 @@
     </LinearLayout>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_telefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
 
     <LinearLayout
 
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -86,7 +86,7 @@
 
     </LinearLayout>
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_correo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_contrasenia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
         android:textAlignment="center"/>
 
     <EditText
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/txt_contrasenia_conf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -118,14 +118,14 @@
 
     <Button
         android:id="@+id/btn_save_changes"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Guardar Cambios" />
 
     <Button
         android:id="@+id/btn_logout"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cerrar Sesión" />
