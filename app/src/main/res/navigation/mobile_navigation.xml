@@ -22,4 +22,14 @@
         android:name="alameda.daniel.glucoscare.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/activity_registro_alimentos" />
+
+    <fragment
+        android:id="@+id/navigation_ajustes"
+        android:name="alameda.daniel.glucoscare.ui.dashboard.AjustesFragment"
+        android:label="@string/title_configuracion"
+        tools:layout="@layout/activity_edit_profile" />
+
+
+
+
 </navigation>

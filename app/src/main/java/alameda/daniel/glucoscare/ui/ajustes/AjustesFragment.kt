@@ -7,11 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 //import alameda.daniel.glucoscare.databinding.FragmentInteresadosBinding
-import alameda.daniel.glucoscare.databinding.FragmentRecordatoriosBinding
+import alameda.daniel.glucoscare.databinding.ActivityEditProfileBinding
+class AjustesFragment : Fragment() {
 
-class DashboardFragment : Fragment() {
-
-    private var _binding: FragmentRecordatoriosBinding? = null
+    private var _binding: ActivityEditProfileBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +24,7 @@ class DashboardFragment : Fragment() {
         val ajustesViewModel =
             ViewModelProvider(this).get(AjustesViewModel::class.java)
 
-        _binding = FragmentRecordatoriosBinding.inflate(inflater, container, false)
+        _binding = ActivityEditProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root
