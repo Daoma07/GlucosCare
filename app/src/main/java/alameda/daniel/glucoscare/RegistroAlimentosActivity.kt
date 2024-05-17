@@ -45,6 +45,7 @@ class RegistroAlimentosActivity : AppCompatActivity() {
     }
 
     private fun registrarAlimento() {
+        /*
         val nombreAlimento = nombreAlimentoEditText.text.toString().trim()
         val cantidad = cantidadEditText.text.toString().trim()
 
@@ -59,7 +60,7 @@ class RegistroAlimentosActivity : AppCompatActivity() {
 
         // Crear un nuevo objeto Alimento
         val alimentoId = databaseReference.push().key ?: return
-        val alimento = Alimento(alimentoId, nombreAlimento, cantidad.toDouble())
+       val alimento = Alimento(alimentoId, nombreAlimento, cantidad.toDouble(), "e")
 
         // Guardar el alimento en la base de datos
         databaseReference.child(userId).child(alimentoId).setValue(alimento)
@@ -75,6 +76,8 @@ class RegistroAlimentosActivity : AppCompatActivity() {
     private fun actualizarListaAlimentos(alimentos: List<Alimento>) {
         alimentoAdapter = AlimentoAdapter(alimentos)
         recyclerView.adapter = alimentoAdapter
+
+         */
     }
 
 }

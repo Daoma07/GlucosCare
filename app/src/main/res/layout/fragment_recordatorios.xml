@@ -19,15 +19,16 @@
         tools:layout_editor_absoluteY="72dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/descricpion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:textAlignment="center"
         android:hint="Descripción"/>
+    
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/fecha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,7 +37,7 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/registar_recordatorio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registrar" />

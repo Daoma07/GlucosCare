@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class AlimentoAdapter(private val alimentos: List<Alimento>) : RecyclerView.Adapter<AlimentoAdapter.AlimentoViewHolder>() {
+class AlimentoAdapter(private var alimentos: List<Alimento>) : RecyclerView.Adapter<AlimentoAdapter.AlimentoViewHolder>() {
 
     class AlimentoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val nombreTextView: TextView = itemView.findViewById(R.id.text_nombre_alimento)
@@ -27,5 +27,11 @@ class AlimentoAdapter(private val alimentos: List<Alimento>) : RecyclerView.Adap
 
     override fun getItemCount(): Int {
         return alimentos.size
+    }
+
+    // Método para actualizar la lista de alimentos en el adaptador
+    fun actualizarLista(nuevaLista: List<Alimento>) {
+        alimentos = nuevaLista
+        notifyDataSetChanged()
     }
 }
